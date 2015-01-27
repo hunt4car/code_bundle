@@ -1,0 +1,147 @@
+/*form_style.css*/
+
+/*all form elements*/
+
+	$form_width: 300px;
+	$form_height:100px;
+	$display: block;
+
+		/*fonts and size*/
+		$main_font: Helvetica, sans-serif;
+		$main_font_size: 24px;
+
+		/*$secondary_font:;*/
+		$secondary_font_size: 20px;
+
+		/*end fonts and size*/
+
+/*end all form elements*/
+
+/*lable*/
+	$lable_font_size: 24px;
+/*end lable*/
+
+/*input*/
+	$input_width: 310px;
+	$input_height: 30px;
+	$input_border: 1px solid #DADADA;
+	$input_margin: 20px 0px 20px 0px;
+	$padding: 0px 0px 0px 15px;
+	$box_shadow: 0 0 10px;
+
+
+/*end input*/
+
+/*input expandable*/
+/*end input expandable*/
+
+/*radio button*/
+/*end radio button*/
+
+/*dropdown*/
+/*end dropdown*/
+
+/*small button*/
+	$small_button_width:100px;
+	$small_button_height:35px;
+	$small_button_text:24px;
+/*end small button*/
+
+/*medium button*/
+	$medium_button_width:100px;
+	$medium_button_height:50px;
+	$medium_button_text:30px;
+/*end medium button*/
+
+/*large button*/
+	$large_button_width:100px;
+	$large_button_height:90px;
+	$large_button_text:50px;
+/*end large button*/
+
+
+form {
+	margin: auto;
+	width: $form_width;
+	min-height: $form_height;
+}
+
+form label{
+	font-size: $lable_font_size;
+}
+
+.input {
+display: $display;
+border:$input_border;
+margin: $input_margin;
+padding: $padding;
+width: $input_width;
+height: $input_height;
+font-size:$main_font_size;
+box-shadow: $box_shadow;
+}
+
+.input_expandable {
+display: $display;
+border:$input_border;
+margin: $input_margin;
+padding: $padding;
+width: $input_width;
+height: $input_height;
+font-size:$main_font_size;
+box-shadow: $box_shadow;
+}
+
+.radio_button {
+	display: $display;
+	font-size:$secondary_font_size;
+	margin-left: 70px;
+	/*float: right;*/
+
+}
+
+.check_box {
+	display: $display;
+	font-size:$secondary_font_size;
+}
+
+select {
+display: $display;
+border:$input_border;
+margin: $input_margin;
+padding: $padding;
+width: $input_width;
+height: $input_height;
+font-size:$secondary_font_size;
+box-shadow: $box_shadow;
+}
+
+.small_button {
+display: $display;
+border:$input_border;
+margin: $input_margin;
+min-width:$small_button_width;
+min-height:$small_button_height;
+font-size:$small_button_text;
+box-shadow: $box_shadow;
+}
+
+.medium_button {
+display: $display;
+border:$input_border;
+margin: $input_margin;
+min-width:$medium_button_width;
+min-height:$medium_button_height;
+font-size:$medium_button_text;
+box-shadow: $box_shadow;
+}
+
+.large_button {
+display: $display;
+border:$input_border;
+margin: $input_margin;
+min-width:$large_button_width;
+min-height:$large_button_height;
+font-size:$large_button_text;
+box-shadow: $box_shadow;
+}

@@ -1,0 +1,167 @@
+/*form_style.css*/
+
+/*lable*/
+/*end lable*/
+
+/*input*/
+/*end input*/
+
+/*input expandable*/
+/*end input expandable*/
+
+/*radio button*/
+/*end radio button*/
+
+/*dropdown*/
+/*end dropdown*/
+
+/*small button*/
+/*end small button*/
+
+/*medium button*/
+/*end medium button*/
+
+/*large button*/
+/*end large button*/
+
+
+form {
+	margin: auto;
+	width: 300px;
+	min-height: 100px;
+}
+
+form label{
+	font-size: 24px;
+}
+
+.input {
+display: block;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:24px;
+box-shadow:0 0 10px;
+-webkit-box-shadow:0 0 10px;
+/* For I.E */
+-moz-box-shadow:0 0 10px;
+/* For Mozilla Web Browser */
+border-radius:5px;
+-webkit-border-radius:5px;
+/* For I.E */
+-moz-border-radius:5px
+/* For Mozilla Web Browser */
+}
+
+.input_expandable {
+display: block;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:24px;
+box-shadow:0 0 10px;
+-webkit-box-shadow:0 0 10px;
+/* For I.E */
+-moz-box-shadow:0 0 10px;
+/* For Mozilla Web Browser */
+border-radius:5px;
+-webkit-border-radius:5px;
+/* For I.E */
+-moz-border-radius:5px
+/* For Mozilla Web Browser */
+}
+
+.radio_button {
+	display: block;
+	font-size:20px;
+	margin-left: 70px;
+	/*float: right;*/
+
+}
+
+select {
+display: block;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:24px;
+box-shadow:0 0 10px;
+-webkit-box-shadow:0 0 10px;
+/* For I.E */
+-moz-box-shadow:0 0 10px;
+/* For Mozilla Web Browser */
+border-radius:5px;
+-webkit-border-radius:5px;
+/* For I.E */
+-moz-border-radius:5px
+/* For Mozilla Web Browser */
+}
+
+.small_button {
+display: block;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+min-width:100px;
+min-height:35px;
+font-size:24px;
+box-shadow:0 0 10px;
+-webkit-box-shadow:0 0 10px;
+/* For I.E */
+-moz-box-shadow:0 0 10px;
+/* For Mozilla Web Browser */
+border-radius:5px;
+-webkit-border-radius:5px;
+/* For I.E */
+-moz-border-radius:5px
+/* For Mozilla Web Browser */
+}
+
+.medium_button {
+display: block;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+min-width:100px;
+min-height:50px;
+font-size:30px;
+box-shadow:0 0 10px;
+-webkit-box-shadow:0 0 10px;
+/* For I.E */
+-moz-box-shadow:0 0 10px;
+/* For Mozilla Web Browser */
+border-radius:5px;
+-webkit-border-radius:5px;
+/* For I.E */
+-moz-border-radius:5px
+/* For Mozilla Web Browser */
+}
+
+.large_button {
+display: block;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+min-width:100px;
+min-height:90px;
+font-size:50px;
+box-shadow:0 0 10px;
+-webkit-box-shadow:0 0 10px;
+/* For I.E */
+-moz-box-shadow:0 0 10px;
+/* For Mozilla Web Browser */
+border-radius:5px;
+-webkit-border-radius:5px;
+/* For I.E */
+-moz-border-radius:5px
+/* For Mozilla Web Browser */
+}

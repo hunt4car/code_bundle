@@ -1,0 +1,98 @@
+/*form_style.css*/
+/*all form elements*/
+/*fonts and size*/
+/*$secondary_font:;*/
+/*end fonts and size*/
+/*end all form elements*/
+/*lable*/
+/*end lable*/
+/*input*/
+/*end input*/
+/*input expandable*/
+/*end input expandable*/
+/*radio button*/
+/*end radio button*/
+/*dropdown*/
+/*end dropdown*/
+/*small button*/
+/*end small button*/
+/*medium button*/
+/*end medium button*/
+/*large button*/
+/*end large button*/
+form {
+  margin: auto;
+  width: 300px;
+  min-height: 100px; }
+
+form label {
+  font-size: 24px; }
+
+.input {
+  display: block;
+  border: 1px solid #DADADA;
+  margin: 20px 0px 20px 0px;
+  padding: 0px 0px 0px 15px;
+  width: 310px;
+  height: 30px;
+  font-size: 24px;
+  box-shadow: 0 0 10px; }
+
+.input_expandable {
+  display: block;
+  border: 1px solid #DADADA;
+  margin: 20px 0px 20px 0px;
+  padding: 0px 0px 0px 15px;
+  width: 310px;
+  height: 30px;
+  font-size: 24px;
+  box-shadow: 0 0 10px; }
+
+.radio_button {
+  display: block;
+  font-size: 20px;
+  margin-left: 70px;
+  /*float: right;*/ }
+
+.check_box {
+  display: block;
+  font-size: 20px; }
+
+select {
+  display: block;
+  border: 1px solid #DADADA;
+  margin: 20px 0px 20px 0px;
+  padding: 0px 0px 0px 15px;
+  width: 310px;
+  height: 30px;
+  font-size: 20px;
+  box-shadow: 0 0 10px; }
+
+.small_button {
+  display: block;
+  border: 1px solid #DADADA;
+  margin: 20px 0px 20px 0px;
+  min-width: 100px;
+  min-height: 35px;
+  font-size: 24px;
+  box-shadow: 0 0 10px; }
+
+.medium_button {
+  display: block;
+  border: 1px solid #DADADA;
+  margin: 20px 0px 20px 0px;
+  min-width: 100px;
+  min-height: 50px;
+  font-size: 30px;
+  box-shadow: 0 0 10px; }
+
+.large_button {
+  display: block;
+  border: 1px solid #DADADA;
+  margin: 20px 0px 20px 0px;
+  min-width: 100px;
+  min-height: 90px;
+  font-size: 50px;
+  box-shadow: 0 0 10px; }
+
+/*# sourceMappingURL=form_style.css.map */
