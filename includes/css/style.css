@@ -1,0 +1,283 @@
+/*variables*/
+/*end variables*/
+body {
+  background: #FF6633;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+  body #title {
+    margin: 0;
+    padding: 30px;
+    border: 0;
+    text-transform: uppercase;
+    color: #222222; }
+  body #logout {
+    margin: 0;
+    border: 0;
+    text-transform: uppercase;
+    color: black;
+    position: absolute;
+    right: 10%;
+    top: 30px;
+    color: #FF6633; }
+  body #logout:hover {
+    color: #0084c2; }
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+#loginpage {
+  width: 100%;
+  min-height: 400px;
+  background: #0a8ecc; }
+  #loginpage .input_form {
+    background-color: #0084c2 !important;
+    width: 87%;
+    height: 100px;
+    margin: 5%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 78px;
+    color: white !important;
+    box-shadow: 0 -5px 15px rgba(100, 100, 100, 0.2) inset, 0 1px 1px rgba(255, 255, 255, 0.2); }
+  #loginpage #submit_button {
+    border-radius: 10px;
+    background-color: #FF6633;
+    vertical-align: middle;
+    border: none;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    left: 80%;
+    bottom: -85px;
+    min-height: 70px;
+    z-index: 1; }
+  #loginpage input:hover {
+    /*color: $main_color;*/ }
+  #loginpage #signup {
+    border-radius: 8px;
+    margin-left: 10px;
+    background-color: #0a8ecc;
+    vertical-align: middle;
+    border: none;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    left: 5%;
+    bottom: -55px;
+    min-height: 70px; }
+  #loginpage #signup:hover {
+    color: #222222; }
+
+#signuppage {
+  width: 100%;
+  min-height: 400px;
+  background: #0a8ecc;
+  	/*input{
+  	border-radius: 10px;
+  	background-color: $second_color ;
+  	vertical-align: middle;
+  	border: none;
+  	font-size: 50px;
+  	color: white;
+  	position: relative;
+  	left: 80%;
+  	bottom: -15px;
+  	min-height: 70px;
+  	z-index: 1; 
+  
+  
+  	}*/ }
+  #signuppage input {
+    background-color: #0084c2;
+    width: 87%;
+    min-height: 20px;
+    margin: 5%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 42px;
+    color: white;
+    box-shadow: 0 -5px 15px rgba(100, 100, 100, 0.2) inset, 0 1px 1px rgba(255, 255, 255, 0.2); }
+  #signuppage input:hover {
+    /*color: $main_color;*/ }
+  #signuppage button {
+    border-radius: 8px;
+    margin-left: 10px;
+    background-color: #0a8ecc;
+    vertical-align: middle;
+    border: none;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    left: 5%;
+    bottom: -15px;
+    min-height: 70px;
+    margin: 0px; }
+
+#about {
+  width: 100%;
+  min-height: 200px; }
+  #about h1 {
+    text-align: center;
+    padding: 60px;
+    font-size: 44px;
+    /*color: red;*/ }
+
+#post_section {
+  width: 100%;
+  min-height: 400px;
+  background: #0a8ecc; }
+  #post_section textarea {
+    background-color: #0084c2;
+    width: 87%;
+    min-height: 300px;
+    margin: 5%;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 50px;
+    color: white;
+    box-shadow: 0 -5px 15px rgba(100, 100, 100, 0.2) inset, 0 1px 1px rgba(255, 255, 255, 0.2); }
+  #post_section input {
+    border-radius: 10px;
+    background-color: #FF6633;
+    vertical-align: middle;
+    border: none;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    left: 80%;
+    bottom: -15px;
+    min-height: 70px;
+    z-index: 1; }
+  #post_section input:hover {
+    color: #0084c2; }
+
+#main_content {
+  min-height: 600px;
+  width: 100%; }
+  #main_content button, #main_content select {
+    border-radius: 8px;
+    margin-left: 10px;
+    background-color: #0a8ecc;
+    vertical-align: middle;
+    border: none;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    left: 5%;
+    bottom: 15px;
+    min-height: 70px; }
+  #main_content button:hover, #main_content button:active {
+    color: #FF6633; }
+
+/*api doc page*/
+.api_div1 {
+  background-color: #ff7a47;
+  width: 87%;
+  min-height: 100px;
+  margin: 5%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  /*padding: 10px;*/
+  /*text-align: center;*/
+  border: none;
+  border-radius: 5px;
+  /*font-size: 78px;*/
+  color: white !important;
+  box-shadow: 0 -5px 15px rgba(100, 100, 100, 0.2) inset, 0 1px 1px rgba(255, 255, 255, 0.2); }
+  .api_div1 h1 {
+    text-align: center;
+    padding: 60px;
+    font-size: 44px;
+    /*color: red;*/ }
+  .api_div1 p {
+    /*text-align: center;*/
+    padding: 10px;
+    font-size: 24px;
+    /*color: red;*/ }
+
+.api_div2 {
+  background-color: #1498d6;
+  width: 87%;
+  min-height: 100px;
+  margin: 5%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  /*padding: 10px;*/
+  /*text-align: center;*/
+  border: none;
+  border-radius: 5px;
+  /*font-size: 78px;*/
+  color: white !important;
+  box-shadow: 0 -5px 15px rgba(100, 100, 100, 0.2) inset, 0 1px 1px rgba(255, 255, 255, 0.2); }
+  .api_div2 h1 {
+    text-align: center;
+    padding: 60px;
+    font-size: 44px;
+    /*color: red;*/ }
+  .api_div2 p {
+    /*text-align: center;*/
+    padding: 10px;
+    font-size: 24px;
+    /*color: red;*/ }
+
+#margin_fix {
+  padding-top: 20px; }
+
+/*end api doc page*/
+/*light slider*/
+ul {
+  list-style: none outside none;
+  padding-left: 0; }
+
+a {
+  color: white; }
+
+a:hover {
+  color: #0084c2; }
+
+.content-slider li {
+  background-color: #ff7a47;
+  text-align: center;
+  color: #FFF;
+  height: 300px;
+  /*box-shadow: 5px 15px 5px black;*/
+  overflow: scroll; }
+
+.content-slider h3 {
+  margin: 0;
+  padding: 70px 0;
+  font-size: 30px; }
+
+.lightslider {
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  padding: 100px 0 0 0; }
+
+.password {
+  display: hidden; }
+
+footer {
+  width: 100%;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  background-color: #222222; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,403 @@
+/*variables*/
+$main_color: #0084c2;
+$second_color: #FF6633;
+$third_color: #222222;
+
+/*end variables*/
+
+body {
+	background: $second_color;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	
+		#title {
+		margin: 0;
+		padding: 30px;
+		border: 0;
+		text-transform: uppercase;
+		color: $third_color;
+		}
+
+		#logout {
+		margin: 0;
+		border: 0;
+		text-transform: uppercase;
+		color: black;
+		position: absolute;
+		right: 10%;
+		top:30px;
+		color: $second_color;
+		}
+
+		#logout:hover {
+		color: $main_color;
+		}
+
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#loginpage {
+	width: 100%;
+	min-height: 400px;
+	background: $main_color +10;
+		.input_form{
+		background-color: $main_color!important;
+		width: 87%;
+		height: 100px;
+		margin: 5%;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		padding: 10px;
+		text-align: center;
+		border: none;
+		border-radius: 5px;
+		font-size: 78px;
+		color: white!important;
+		box-shadow: 0 -5px 15px rgba(100, 100, 100, 0.2) inset, 0 1px 1px rgba(255, 255, 255, 0.2);
+	}
+
+	#submit_button {
+	border-radius: 10px;
+	background-color: $second_color;
+	vertical-align: middle;
+	border: none;
+	font-size: 50px;
+	color: white;
+	position: relative;
+	left: 80%;
+	bottom: -85px;
+	min-height: 70px;
+	z-index: 1;  
+
+
+	}
+
+	input:hover {
+		/*color: $main_color;*/
+	}
+
+	#signup {
+		border-radius: 8px;
+	margin-left: 10px;
+	background-color: $main_color +10;
+	vertical-align: middle;
+	border: none;
+	font-size: 50px;
+	color: white;
+	position: relative;
+	left: 5%;
+	bottom: -55px;
+	min-height: 70px;
+
+	}
+
+	#signup:hover {
+		color: $third_color;
+	}
+
+}
+
+#signuppage {
+	width: 100%;
+	min-height: 400px;
+	background: $main_color +10;
+		input {
+		background-color: $main_color;
+		width: 87%;
+		min-height: 20px;
+		margin: 5%;
+		margin-top: 20px;
+		margin-bottom: 0px;
+		padding: 0px;
+		text-align: center;
+		border: none;
+		border-radius: 5px;
+		font-size: 42px;
+		color: white;
+		box-shadow: 0 -5px 15px rgba(100, 100, 100, 0.2) inset, 0 1px 1px rgba(255, 255, 255, 0.2);
+	}
+
+	/*input{
+	border-radius: 10px;
+	background-color: $second_color ;
+	vertical-align: middle;
+	border: none;
+	font-size: 50px;
+	color: white;
+	position: relative;
+	left: 80%;
+	bottom: -15px;
+	min-height: 70px;
+	z-index: 1; 
+
+
+	}*/
+
+	input:hover {
+		/*color: $main_color;*/
+	}
+
+	button {
+		border-radius: 8px;
+	margin-left: 10px;
+	background-color: $main_color +10;
+	vertical-align: middle;
+	border: none;
+	font-size: 50px;
+	color: white;
+	position: relative;
+	left: 5%;
+	bottom: -15px;
+	min-height: 70px;
+	margin: 0px;
+}
+
+}
+
+#about {
+	width: 100%;
+	min-height: 200px;
+
+	h1 {
+	text-align: center;
+	padding: 60px;
+	font-size: 44px;
+	/*color: red;*/
+}
+}
+
+#post_section {
+	width: 100%;
+	min-height: 400px;
+	background: $main_color +10;
+		textarea {
+		background-color: $main_color;
+		width: 87%;
+		min-height: 300px;
+		margin: 5%;
+		padding: 20px;
+		border: none;
+		border-radius: 5px;
+		font-size: 50px;
+		color: white;
+		box-shadow: 0 -5px 15px rgba(100, 100, 100, 0.2) inset, 0 1px 1px rgba(255, 255, 255, 0.2);
+	}
+
+	input {
+	border-radius: 10px;
+	background-color: $second_color ;
+	vertical-align: middle;
+	border: none;
+	font-size: 50px;
+	color: white;
+	position: relative;
+	left: 80%;
+	bottom: -15px;
+	min-height: 70px;
+	z-index: 1; 
+
+
+	}
+
+	input:hover {
+		color: $main_color;
+	}
+
+}
+
+#main_content {
+	min-height: 600px;
+	width: 100%;
+
+	button, select {
+	border-radius: 8px;
+	margin-left: 10px;
+	background-color: $main_color +10;
+	vertical-align: middle;
+	border: none;
+	font-size: 50px;
+	color: white;
+	position: relative;
+	left: 5%;
+	bottom: 15px;
+	min-height: 70px;
+
+
+
+	}
+
+	button:hover, button:active {
+		color: $second_color;
+	}
+}
+
+/*api doc page*/
+
+
+.api_div1 {
+	background-color: $second_color+20;
+		width: 87%;
+		min-height: 100px;
+		margin: 5%;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		/*padding: 10px;*/
+		/*text-align: center;*/
+		border: none;
+		border-radius: 5px;
+		/*font-size: 78px;*/
+		color: white!important;
+		box-shadow: 0 -5px 15px rgba(100, 100, 100, 0.2) inset, 0 1px 1px rgba(255, 255, 255, 0.2);
+
+		h1 {
+			text-align: center;
+			padding: 60px;
+			font-size: 44px;
+			/*color: red;*/
+
+		}
+
+		p {
+			/*text-align: center;*/
+			padding: 10px;
+			font-size: 24px;
+			/*color: red;*/
+
+		}
+	}
+
+.api_div2 {
+	background-color: $main_color+20;
+		width: 87%;
+		min-height: 100px;
+		margin: 5%;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		/*padding: 10px;*/
+		/*text-align: center;*/
+		border: none;
+		border-radius: 5px;
+		/*font-size: 78px;*/
+		color: white!important;
+		box-shadow: 0 -5px 15px rgba(100, 100, 100, 0.2) inset, 0 1px 1px rgba(255, 255, 255, 0.2);
+
+		h1 {
+			text-align: center;
+			padding: 60px;
+			font-size: 44px;
+			/*color: red;*/
+
+		}
+
+		p {
+			/*text-align: center;*/
+			padding: 10px;
+			font-size: 24px;
+			/*color: red;*/
+
+		}
+	}
+
+#margin_fix {
+	padding-top: 20px;
+}
+
+
+/*end api doc page*/
+
+
+
+/*light slider*/
+	    ul{
+			list-style: none outside none;
+		    padding-left: 0;
+		}
+
+		a {
+			color: white;
+		}
+		a:hover {
+			color: $main_color;
+		}
+		.content-slider li{
+		    background-color: $second_color +20;
+		    text-align: center;
+		    color: #FFF;
+		    height: 300px;
+		    /*box-shadow: 5px 15px 5px black;*/
+		    overflow: scroll;
+
+
+		}
+		.content-slider h3 {
+		    margin: 0;
+		    padding: 70px 0;
+		    font-size: 30px;
+		}
+		.lightslider{
+			width: 80%;
+			height: 300px;
+			margin: 0 auto;
+			padding: 100px 0 0 0;
+		}
+
+.password {
+	display: hidden;
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	padding: 0;
+	margin: 0;
+	background-color: $third_color;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
